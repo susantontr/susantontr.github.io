@@ -1,11 +1,18 @@
-body {
+body, html {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    height: 100%;         /*Most recent change- TeJaun*/
 }
 
+
 .container {
-    margin: 10% 10%;
-    font-family: 
+    margin: 10% 10% 0 10%;
+    padding: 3%;
+
+}
+
+.navbar {
+  background-color: #dadddf;
 }
 
 h1 {
@@ -15,14 +22,22 @@ h1 {
 
 h3 {
   text-align: center;
+  padding: 3% 0 0 0;
 }
 
 p {
-    padding: 10%;
     font-size: 1rem;
 }
 
-.fab {
+hr {
+  width: 15%;
+}
+.rowproject {
+  padding: 3% 10%;
+}
+
+
+.fab, .fas{
     margin: 2%;
 }
 
@@ -85,15 +100,7 @@ body { font-family: sans-serif; }
   }
 
 
-
-  hr {
-    border-bottom: solid;
-    width: 50%;
-    border-width: 1px;
-    border-color: lightgray;
-}
-
-#projects, #gallery{
+#about, #blog{
   background-color: #eeeeee;
 }
 
