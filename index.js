@@ -6,7 +6,7 @@ $(".card").click(function(){
 
 
 
-$(".yoga).hover(function(){
+$(".yoga").hover(function(){
   $(this).fadeOut(50).fadeIn(50);
 });
 
