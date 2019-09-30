@@ -9,7 +9,7 @@ body{
 
 
 .container {
-    margin: 10% 10% 0 10%;
+    margin: 0 10% 0 10%;
     padding: 3%;
 }
 
@@ -137,3 +137,24 @@ hr {
   font-family: 'Marvel', sans-serif;
 }
 
+/*icon*/
+.fas1{
+  color: #464159;
+}
+
+.fas2 {
+  color: #6c7b95;
+}
+
+.fas3 {
+  color: #8bbabb;
+}
+
+.fas4 {
+  color: #3c9d9b;
+}
+
+/*About*/
+.img-pro {
+  border-radius: 100% 100% 100% 100%;
+}
