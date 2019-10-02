@@ -60,14 +60,8 @@ hr {
      font-size: 0.5rem;
 }
 
-/*title*/
-.title {
-    margin: 0%;
-}
+#mainpage {
 
-/*introduction*/
-.introduction{
-    margin: 0%;
 }
 
 /*About*/
@@ -147,18 +141,36 @@ hr {
   color: #464159;
 }
 
+.fas1:hover {
+  color: #202040;
+  cursor: pointer;
+}
+
 .fas2 {
   color: #6c7b95;
 }
+.fas2:hover{
+  color: #204969;
+  cursor: pointer;
+}
+
+
 
 .fas3 {
   color: #8bbabb;
+}
+.fas3:hover{
+  color: #00bdaa;
+  cursor: pointer;
 }
 
 .fas4 {
   color: #3c9d9b;
 }
-
+.fas4:hover{
+  color: #347474;
+  cursor: pointer;
+}
 /*About*/
 .img-pro {
   border-radius: 100% 100% 100% 100%;
