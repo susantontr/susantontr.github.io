@@ -61,7 +61,8 @@ hr {
 }
 
 #mainpage {
-
+  height: 800px;
+  padding: 10% 0 10% 0;
 }
 
 /*About*/
