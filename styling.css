@@ -6,7 +6,9 @@ body{
 
 }
 
-
+#content {
+  height: 3500px;
+}
 
 .container {
     margin: 0 10% 0 10%;
@@ -15,10 +17,37 @@ body{
 
 
 
-.galery1 {
-  padding: 10% 20%;
+.gallery1 {
+  padding: 5% 20%; 
+  position: absolute;
+}
+
+.galleryzoom {
+    width: 50%;
+    
+    left: 25%;
+    top: 15%;
+    position: fixed;
+}
+
+.zoomedimg {
+  border-radius: 5%;
+  border: black solid;
+  box-shadow: 10px 5px 5px 1px black;
+}
+.gal:hover {
+  cursor: pointer;
+}
 
   
+
+
+.trans {
+  opacity: 0.33;
+}
+
+.visibility {
+  visibility: hidden;
 }
 
 

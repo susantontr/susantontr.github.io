@@ -10,6 +10,8 @@ $(".yoga").hover(function(){
   $(this).fadeOut(50).fadeIn(50);
 });
 
+
+
 $(".fas1").click(function(){
   $(".p2").css("color", "black");
 });
@@ -27,6 +29,18 @@ $(".fas4").click(function(){
 });
 
 
+$(".gallery1").click(function () {
+
+  $(this).addClass("trans");
+  $(".galleryzoom").removeClass("visibility");
+});
+
+
+$(".galleryzoom").click(function () {
+
+  $(this).addClass("visibility");
+  $(".gallery1").removeClass("trans");
+});
 
 
 
