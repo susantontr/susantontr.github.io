@@ -23,10 +23,9 @@ body{
 }
 
 .galleryzoom {
-    width: 50%;
-    
+    width: 52%;  
     left: 25%;
-    top: 15%;
+    top: 12%;
     position: fixed;
 }
 
@@ -35,7 +34,7 @@ body{
   border: black solid;
   box-shadow: 10px 5px 5px 1px black;
 }
-.gal:hover {
+.yoga:hover, .zoomedimg:hover {
   cursor: pointer;
 }
 
