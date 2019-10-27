@@ -16,7 +16,7 @@ $(".fas1").click(function(){
 
 
 $(".fas2").click(function(){
-  $(this).animate({ "left": "-=30px" }, "slow" );
+  $(this).animate({ "left": "-=30px" , "right": "+=30px"}, "slow" );
   $(".p3").css("color", "black");
 });
 
