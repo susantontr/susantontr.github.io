@@ -84,6 +84,10 @@ hr {
     margin: 2%;
 }
 
+.fas{
+   position: relative;
+}
+
 .copyright {
      font-size: 0.5rem;
 }
@@ -168,6 +172,7 @@ hr {
 /*icon*/
 .fas1{
   color: #464159;
+  right: 100px;
 }
 
 .fas1:hover {
@@ -177,6 +182,7 @@ hr {
 
 .fas2 {
   color: #6c7b95;
+  right: 50px;
 }
 .fas2:hover{
   color: #204969;
@@ -187,6 +193,7 @@ hr {
 
 .fas3 {
   color: #8bbabb;
+  right: 0px;
 }
 .fas3:hover{
   color: #00bdaa;
@@ -195,6 +202,7 @@ hr {
 
 .fas4 {
   color: #3c9d9b;
+  right: -50px;
 }
 .fas4:hover{
   color: #347474;
