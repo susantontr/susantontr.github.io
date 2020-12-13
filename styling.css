@@ -7,7 +7,7 @@ body{
 }
 
 #content {
-  height: 3500px;
+  height: 260rem;
 }
 
 .container {
@@ -16,14 +16,13 @@ body{
 }
 
 
-
 .gallery1 {
   padding: 5% 20%; 
   position: absolute;
 }
 
 .galleryzoom {
-    width: 52%;  
+    width: 52%; 
     left: 25%;
     top: 12%;
     position: relative;
@@ -79,7 +78,7 @@ hr {
 }
 
 .rowproject {
-  padding: 3% 10%;
+  padding: 5% 10%;
 }
 
 
@@ -214,4 +213,29 @@ hr {
 /*About*/
 .img-pro {
   border-radius: 100% 100% 100% 100%;
+}
+
+/*footer*/
+
+footer{
+position: relative;
+}
+
+/***blog*/
+iframe{
+  margin: auto;
+  display: block;
+  box-shadow:0 10px 20px #495464, 0 6px 6px rgba(0,0,0,0.19);
+
+}
+
+
+#blog{
+  height:45rem;
+}
+
+/*projectimg*/
+.projectimg  {
+  border: 2%;
+  box-shadow: 0 10px 20px #495464, 0 6px 6px rgba(0,0,0,0.19);
 }
